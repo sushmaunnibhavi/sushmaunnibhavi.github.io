@@ -37,17 +37,14 @@ ul.posts {
     margin: 20px auto 40px; 
     font-size: 1.5em;
 }
-.bg {
-  /* The image used */
-  background-image: url("https://steamusercontent-a.akamaihd.net/ugc/866233720804701459/E94AB02A2B893187C19CFDD3C509B0C0148FA335/");
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+body{height:100%;
+   width:100%;
+   background-image:url(https://steamusercontent-a.akamaihd.net/ugc/866233720804701459/E94AB02A2B893187C19CFDD3C509B0C0148FA335/);/*your background image*/  
+   background-repeat:no-repeat;/*we want to have one single image not a repeated one*/  
+   background-size:cover;/*this sets the image to fullscreen covering the whole screen*/  
+   /*css hack for ie*/     
+   filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.image.jpg',sizingMethod='scale');
+   -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image.jpg',sizingMethod='scale')";
 }
 
 ul.posts li {
