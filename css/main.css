@@ -37,6 +37,18 @@ ul.posts {
     margin: 20px auto 40px; 
     font-size: 1.5em;
 }
+.bg {
+  /* The image used */
+  background-image: url("https://steamusercontent-a.akamaihd.net/ugc/866233720804701459/E94AB02A2B893187C19CFDD3C509B0C0148FA335/");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 ul.posts li {
     list-style: none;
