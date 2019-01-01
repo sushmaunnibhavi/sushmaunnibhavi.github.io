@@ -37,11 +37,6 @@ ul.posts {
     margin: 20px auto 40px; 
     font-size: 1.5em;
 }
-
-
-ul.posts li {
-    list-style: none;
-}
 body{height:100%;
    width:100%;
    background-image:url(https://thumbs.gfycat.com/JoyfulRewardingDrake-max-1mb.gif);/*your background image*/  
@@ -51,3 +46,9 @@ body{height:100%;
    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.image.jpg',sizingMethod='scale');
    -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image.jpg',sizingMethod='scale')";
 }
+
+
+ul.posts li {
+    list-style: none;
+}
+
