@@ -3,9 +3,9 @@ layout: default
 title: Sushma Unnibhavi's Blog
 ---
 	<h1 style="color:#F8F5F5";>{{ page.title }}</h1>
-	<ul class="posts">
+	<ul style="color:#F8F5F5"; class="posts">
 
 	  {% for post in site.posts %}
-	    <li style="color:#F8F5F5";><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	    <li style="color:#F8F5F5";><span style="color:#F8F5F5";>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
 	</ul>
