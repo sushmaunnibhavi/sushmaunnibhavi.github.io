@@ -2,13 +2,22 @@ body {
     margin: 60px auto;
     width: 70%;
 }
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
+.social-icons {
   text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
+  }  
+.social-icons li {
+  display:inline-block;
+  list-style-type:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  }
+.social-icons li a {
+  border-bottom: none;
+  }
+.social-icons li img {
+  width:70px;
+  height:70px;
+  margin-right: 20px;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
