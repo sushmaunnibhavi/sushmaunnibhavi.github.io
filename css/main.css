@@ -9,42 +9,50 @@ nav ul, footer ul {
     list-style: none;
     font-weight: bold;
     color: #f8f5f5;
+    text-align: center;
 }
 nav ul li, footer ul li {
     display: inline;
     padding: 25px 50px 75px 100px;
     margin-right: 20px;
     color: #f8f5f5;
+    text-align: center;
 }
 a {
     text-decoration: none;
     color: #f8f5f5;
+    text-align: center;
 }
 a:hover {
     text-decoration: underline;
     color: #f8f5f5;
+    text-align: center;
 }
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: #f8f5f5;
+    text-align: center;
      
 }
 p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #f8f5f5;
+    text-align: center;
 }
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
     color: #f8f5f5;
+    text-align: center;
 }
 
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
     color: #f8f5f5;
+    text-align: center;
 }
 body{height:100%;
    width:100%;
