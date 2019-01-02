@@ -1,82 +1,46 @@
 body {
     margin: 60px auto;
     width: 70%;
-    color: #f8f5f5;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
- 
-    margin: 20px;
+    padding: 0px;
     list-style: none;
     font-weight: bold;
-    color: #f8f5f5;
-    text-align: center;
 }
 nav ul li, footer ul li {
     display: inline;
-  
-    margin: 20px;
-    color: #f8f5f5;
-    text-align: center;
+    margin-right: 20px;
 }
 a {
     text-decoration: none;
-    
-    color: #f8f5f5;
-    text-align: center;
+   color: #f8f5f5;
 }
 a:hover {
     text-decoration: underline;
-    
-    color: #f8f5f5;
-    text-align: center;
 }
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    
-    color: #f8f5f5;
-    text-align: center;
-     
 }
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-  
-    margin: 20px;
-    color: #f8f5f5;
-    text-align: center;
+ color: #f8f5f5;
 }
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
-   
-    color: #f8f5f5;
-    text-align: center;
 }
 
 ul.posts { 
     margin: 20px auto 40px; 
-    
-    margin: 20px;
     font-size: 1.5em;
-    color: #f8f5f5;
-    text-align: center;
 }
-
-body{height:100%;
-   width:100%;
-   background-image:url('https://thumbs.gfycat.com/JoyfulRewardingDrake-max-1mb.gif');/*your background image*/  
-   background-repeat:no-repeat;/*we want to have one single image not a repeated one*/  
-   background-size:cover;/*this sets the image to fullscreen covering the whole screen*/  
-   /*css hack for ie*/     
-   filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.image.jpg',sizingMethod='scale');
-   -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image.jpg',sizingMethod='scale')";
-}
-
 
 ul.posts li {
     list-style: none;
-    color: #f8f5f5;
 }
+
+
 
