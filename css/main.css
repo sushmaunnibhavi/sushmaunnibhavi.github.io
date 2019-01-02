@@ -5,7 +5,7 @@ body {
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 25px 50px 75px 0px;
+ 
     margin: 20px;
     list-style: none;
     font-weight: bold;
@@ -14,27 +14,27 @@ nav ul, footer ul {
 }
 nav ul li, footer ul li {
     display: inline;
-   padding: 25px 50px 75px 0px;
+  
     margin: 20px;
     color: #f8f5f5;
     text-align: center;
 }
 a {
     text-decoration: none;
-    padding: 25px 50px 75px 100px;
+    
     color: #f8f5f5;
     text-align: center;
 }
 a:hover {
     text-decoration: underline;
-    padding: 25px 50px 75px 100px;
+    
     color: #f8f5f5;
     text-align: center;
 }
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 25px 50px 75px 100px;
+    
     color: #f8f5f5;
     text-align: center;
      
@@ -42,7 +42,7 @@ h1 {
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    padding: 25px 50px 75px 100px;
+  
     margin: 20px;
     color: #f8f5f5;
     text-align: center;
@@ -50,14 +50,14 @@ p {
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
-    padding: 25px 50px 75px 100px;
+   
     color: #f8f5f5;
     text-align: center;
 }
 
 ul.posts { 
     margin: 20px auto 40px; 
-    padding: 25px 50px 75px 100px;
+    
     margin: 20px;
     font-size: 1.5em;
     color: #f8f5f5;
