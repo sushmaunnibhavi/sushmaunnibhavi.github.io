@@ -2,13 +2,7 @@ body {
     margin: 60px auto;
     width: 70%;
 }
-.social-icons {
-  text-align: center;
-  }  
 
-.social-icons li a {
-  border-bottom: none;
-  }
 .social-icons li img {
   width:70px;
   height:70px;
