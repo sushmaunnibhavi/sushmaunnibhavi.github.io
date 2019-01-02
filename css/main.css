@@ -14,7 +14,7 @@ nav ul, footer ul {
 nav ul li, footer ul li {
     display: inline;
    padding: 25px 50px 75px 100px;
-    margin-right: 0px;
+    
     color: #f8f5f5;
     text-align: center;
 }
