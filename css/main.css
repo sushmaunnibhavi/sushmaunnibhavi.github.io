@@ -54,9 +54,20 @@ ul.posts {
     color: #f8f5f5;
     text-align: center;
 }
-body{height:100%;
+body{height:25%;
    width:100%;
-   background-image:url(https://thumbs.gfycat.com/WarmheartedCooperativeHoneybadger-max-1mb.gif);/*your background image*/  
+  /*your background image*/
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIZWEQj2Kfmc_Zb5dwuw5Sy4i64-GZ0jnzL2GU_FgHggfwx4w_);
+   background-repeat:no-repeat;/*we want to have one single image not a repeated one*/  
+   background-size:cover;/*this sets the image to fullscreen covering the whole screen*/  
+   /*css hack for ie*/     
+   filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.image.jpg',sizingMethod='scale');
+   -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image.jpg',sizingMethod='scale')";
+}
+body{height:75%;
+   width:100%;
+   background-image:url(https://thumbs.gfycat.com/WarmheartedCooperativeHoneybadger-max-1mb.gif);/*your background image*/
+   
    background-repeat:no-repeat;/*we want to have one single image not a repeated one*/  
    background-size:cover;/*this sets the image to fullscreen covering the whole screen*/  
    /*css hack for ie*/     
