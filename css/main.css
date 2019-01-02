@@ -5,7 +5,7 @@ body {
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 25px 50px 75px 100px;
+    padding: 25px 50px 75px 0px;
     margin: 20px;
     list-style: none;
     font-weight: bold;
@@ -14,7 +14,7 @@ nav ul, footer ul {
 }
 nav ul li, footer ul li {
     display: inline;
-   padding: 25px 50px 75px 100px;
+   padding: 25px 50px 75px 0px;
     margin: 20px;
     color: #f8f5f5;
     text-align: center;
@@ -66,7 +66,7 @@ ul.posts {
 
 body{height:100%;
    width:100%;
-   background-image:url(https://thumbs.gfycat.com/JoyfulRewardingDrake-max-1mb.gif);/*your background image*/  
+   background-image:url('https://thumbs.gfycat.com/JoyfulRewardingDrake-max-1mb.gif');/*your background image*/  
    background-repeat:no-repeat;/*we want to have one single image not a repeated one*/  
    background-size:cover;/*this sets the image to fullscreen covering the whole screen*/  
    /*css hack for ie*/     
