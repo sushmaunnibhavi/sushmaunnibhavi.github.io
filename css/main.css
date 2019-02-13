@@ -60,7 +60,7 @@ ul.posts {
 
 body{height:100%;
 width:100%;
-background-image:url('https://images.pexels.com/photos/1669068/pexels-photo-1669068.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');/*your background image*/ 
+background-image:url('https://images.pexels.com/photos/1374889/pexels-photo-1374889.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');/*your background image*/ 
 background-repeat:no-repeat;/*we want to have one single image not a repeated one*/ 
 background-size:cover;/*this sets the image to fullscreen covering the whole screen*/ 
 /*css hack for ie*/ 
